@@ -1,19 +1,19 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-transport~gzm~pl",
       "name": "ZTM Transport GZM",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/TransportGZM-GTFS-mirror/TransportGZM-GTFS-extended-ver/releases/latest/download/TransportGZM-GTFS.zip"
+        "static_current": "https://github.com/TransportGZM-GTFS-mirror/TransportGZM-GTFS-normal/releases/latest/download/TransportGZM-GTFS.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
         "url": "https://spdx.org/licenses/CC-BY-4.0.html"
       },
       "tags": {
-        "notes": "This feed has an unstable URL that changes on a daily basis. GitHub Actions at https://github.com/TransportGZM-GTFS-mirror/TransportGZM-GTFS-extended-ver fetches the latest zip from https://otwartedane.metropoliagzm.pl/dataset/rozklady-jazdy-i-lokalizacja-przystankow-gtfs-wersja-rozszerzona"
+        "notes": "This feed has an unstable URL that changes on a daily basis. GitHub Actions at https://github.com/TransportGZM-GTFS-mirror/TransportGZM-GTFS-normal fetches the latest zip from https://otwartedane.metropoliagzm.pl/dataset/rozklady-jazdy-gtfs-wersja-tymczasowa"
       }
     },
     {
